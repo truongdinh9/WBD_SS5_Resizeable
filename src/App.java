@@ -16,8 +16,9 @@ public class App {
         System.out.println("After: ");
         for (Resizeable resizeable:resizeables
              ) {
-            resizeable.resize(random());
-            System.out.println(resizeable);
+            int randoooom=random();
+            resizeable.resize(randoooom);
+            System.out.println("Shape after resize with percent= "+ randoooom+ " : "+resizeable);
         }
     }
 }
